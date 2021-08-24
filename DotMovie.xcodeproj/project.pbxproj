@@ -13,6 +13,9 @@
 		D7E2529F26D4851E00EB0655 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E2529E26D4851E00EB0655 /* Preview Assets.xcassets */; };
 		D7E252AA26D4852000EB0655 /* DotMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E252A926D4852000EB0655 /* DotMovieTests.swift */; };
 		D7E252B526D4852000EB0655 /* DotMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E252B426D4852000EB0655 /* DotMovieUITests.swift */; };
+		D7E252C326D4880800EB0655 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E252C226D4880800EB0655 /* PlayerView.swift */; };
+		D7E252C526D489D400EB0655 /* PlayerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E252C426D489D400EB0655 /* PlayerUIView.swift */; };
+		D7E252C726D48E0C00EB0655 /* pict.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D7E252C626D48BD400EB0655 /* pict.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		D7E252B026D4852000EB0655 /* DotMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DotMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E252B426D4852000EB0655 /* DotMovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotMovieUITests.swift; sourceTree = "<group>"; };
 		D7E252B626D4852000EB0655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E252C226D4880800EB0655 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		D7E252C426D489D400EB0655 /* PlayerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerUIView.swift; sourceTree = "<group>"; };
+		D7E252C626D48BD400EB0655 /* pict.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = pict.mp4; path = ../../../CA/CA22/PoCMOCK/pict.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				D7E2529726D4851300EB0655 /* DotMovieApp.swift */,
+				D7E252C626D48BD400EB0655 /* pict.mp4 */,
 				D7E2529926D4851300EB0655 /* ContentView.swift */,
 				D7E2529B26D4851E00EB0655 /* Assets.xcassets */,
 				D7E252A026D4851E00EB0655 /* Info.plist */,
 				D7E2529D26D4851E00EB0655 /* Preview Content */,
+				D7E252C226D4880800EB0655 /* PlayerView.swift */,
+				D7E252C426D489D400EB0655 /* PlayerUIView.swift */,
 			);
 			path = DotMovie;
 			sourceTree = "<group>";
@@ -192,6 +201,9 @@
 		D7E2528C26D4851200EB0655 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
@@ -233,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7E252C726D48E0C00EB0655 /* pict.mp4 in Resources */,
 				D7E2529F26D4851E00EB0655 /* Preview Assets.xcassets in Resources */,
 				D7E2529C26D4851E00EB0655 /* Assets.xcassets in Resources */,
 			);
@@ -259,8 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7E252C326D4880800EB0655 /* PlayerView.swift in Sources */,
 				D7E2529A26D4851300EB0655 /* ContentView.swift in Sources */,
 				D7E2529826D4851300EB0655 /* DotMovieApp.swift in Sources */,
+				D7E252C526D489D400EB0655 /* PlayerUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
